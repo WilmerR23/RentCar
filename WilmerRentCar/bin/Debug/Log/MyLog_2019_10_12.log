@@ -1,0 +1,433 @@
+<LogEntry Date="2019-10-12 08:25:15" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:25:15" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The model backing the 'RentCarDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269). Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:25:16" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:25:16" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The model backing the 'RentCarDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269). Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:25:16" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:36:31" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:36:31" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Valor de tiempo de espera caducado. El periodo de tiempo de espera se agotó durante la fase previa al inicio de sesión. Es posible que la conexión agotara el tiempo de espera mientras esperaba que el servidor completara el proceso de inicio de sesión y respondiera; o bien, al intentar crear varias conexiones activas.  El tiempo invertido al intentar conectarse a este servidor fue: [Previo al inicio de sesión] inicialización=339; protocolo de enlace=14; [Inicio de sesión] inicialización=0; autenticación=0; [Tras el inicio de sesión] completo=1067;  Inner Exception Mensaje: The wait operation timed out</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:38:29" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:38:29" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Valor de tiempo de espera caducado. El periodo de tiempo de espera se agotó durante la fase previa al inicio de sesión. Es posible que la conexión agotara el tiempo de espera mientras esperaba que el servidor completara el proceso de inicio de sesión y respondiera; o bien, al intentar crear varias conexiones activas.  El tiempo invertido al intentar conectarse a este servidor fue: [Previo al inicio de sesión] inicialización=96; protocolo de enlace=63; [Inicio de sesión] inicialización=0; autenticación=0; [Tras el inicio de sesión] completo=1000;  Inner Exception Mensaje: The wait operation timed out</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:40:27" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:40:28" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Valor de tiempo de espera caducado. El periodo de tiempo de espera se agotó durante la fase previa al inicio de sesión. Es posible que la conexión agotara el tiempo de espera mientras esperaba que el servidor completara el proceso de inicio de sesión y respondiera; o bien, al intentar crear varias conexiones activas.  El tiempo invertido al intentar conectarse a este servidor fue: [Previo al inicio de sesión] inicialización=15; protocolo de enlace=5; [Inicio de sesión] inicialización=0; autenticación=0; [Tras el inicio de sesión] completo=999;  Inner Exception Mensaje: The wait operation timed out</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:41:28" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:55:18" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:55:18" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Valor de tiempo de espera caducado. El periodo de tiempo de espera se agotó durante la fase previa al inicio de sesión. Es posible que la conexión agotara el tiempo de espera mientras esperaba que el servidor completara el proceso de inicio de sesión y respondiera; o bien, al intentar crear varias conexiones activas.  El tiempo invertido al intentar conectarse a este servidor fue: [Previo al inicio de sesión] inicialización=15; protocolo de enlace=5; [Inicio de sesión] inicialización=0; autenticación=0; [Tras el inicio de sesión] completo=1000;  Inner Exception Mensaje: The wait operation timed out</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 08:56:31" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:01" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:01" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:13" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:13" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:22" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:22" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:33" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:33" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:25:39" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:51:35" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:51:35" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:51:38" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:57:57" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:57:57" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:57:58" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:57:58" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:57:59" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:57:59" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:58:00" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:58:00" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:58:00" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:58:00" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:58:01" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 10:58:01" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 16:50:58" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 16:50:58" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado) Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 16:56:42" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 16:56:42" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 17:29:57" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 17:29:57" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:48" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:48" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:49" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:49" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:49" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:49" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:49" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:07:49" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:26" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:26" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:27" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:27" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:29" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:29" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:30" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:18:30" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:39" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:39" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:45" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:45" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:45" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:45" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:46" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:20:46" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:05" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:05" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:07" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:07" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:08" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:08" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:08" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:09" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:10" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:10" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:11" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:11" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:11" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:11" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:12" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:12" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:12" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:12" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:13" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:13" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:13" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:13" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:14" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:14" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:14" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:14" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:14" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:14" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="10">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Empleadoes_dbo.Personas_PersonaId". The conflict occurred in database "RentCar", table "dbo.Personas", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:15" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:15" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: An error occurred while updating the entries. See the inner exception for details.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:15" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:15" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: An error occurred while updating the entries. See the inner exception for details.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:16" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:16" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:17" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:17" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:17" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 18:21:17" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: A second operation started on this context before a previous asynchronous operation completed. Use 'await' to ensure that any asynchronous operations have completed before calling another method on this context. Any instance members are not guaranteed to be thread safe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:40" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:40" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:41" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:41" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:42" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:42" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:43" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:43" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="4">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:43" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:43" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:44" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:44" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:44" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:44" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:45" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:45" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:45" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:45" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:46" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:46" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:46" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:46" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:47" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:47" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:47" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:47" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:47" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-12 19:33:47" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="7">
+  <Message>Mensaje: An error occurred while updating the entries. See the inner exception for details. Inner Exception Mensaje: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.RentaDevolucions_dbo.Empleadoes_EmpleadoId". The conflict occurred in database "RentCar", table "dbo.Empleadoes", column 'Id'.
+The statement has been terminated.</Message>
+</LogEntry>

@@ -1,0 +1,31 @@
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.dll.config
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.pdb
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.BOL.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.BOL.pdb
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csprojAssemblyReference.cache
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.CopyComplete
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.pdb
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.GenerateResource.cache
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.intiiall.resources
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.dll.config
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.pdb
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\EntityFramework.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.BOL.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.BOL.pdb
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\EntityFramework.xml
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csprojAssemblyReference.cache
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.CopyComplete
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.pdb
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.WebMigra.resources
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.GenerateResource.cache

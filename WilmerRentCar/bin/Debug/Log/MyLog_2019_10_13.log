@@ -1,0 +1,222 @@
+<LogEntry Date="2019-10-13 11:59:06" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 11:59:06" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Referencia a objeto no establecida como instancia de un objeto. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 11:59:22" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 11:59:22" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Referencia a objeto no establecida como instancia de un objeto. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 11:59:55" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 11:59:55" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Referencia a objeto no establecida como instancia de un objeto. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:14" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:14" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:15" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:15" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The report definition is not valid.  Details: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:15" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:15" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The report definition is not valid.  Details: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:16" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:16" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The definition of the report 'C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar\Reporte\ReportFecha.rdlc' is invalid. Inner Exception Mensaje: The report definition is not valid.  Details: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:33:16" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:29" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:29" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:30" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:30" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The report definition is not valid.  Details: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:30" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:30" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The report definition is not valid.  Details: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:30" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:30" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: The definition of the report 'C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar\Reporte\ReportFecha.rdlc' is invalid. Inner Exception Mensaje: The report definition is not valid.  Details: The report definition has an invalid target namespace 'http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition' which cannot be upgraded.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:31" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 17:46:31" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: An error occurred during local report processing. Inner Exception Mensaje: The definition of the report 'C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar\Reporte\ReportFecha.rdlc' is invalid.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:22" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:22" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040) Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:22" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:22" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040) Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:22" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:22" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Error inesperado al procesar los informes. Inner Exception Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:23" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:23" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: La definición del informe 'C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar\Reporte\ReportFecha.rdlc' no es válida. Inner Exception Mensaje: Error inesperado al procesar los informes.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:05:23" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:29" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:29" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040) Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:30" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:30" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040) Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:30" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:30" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Error inesperado al procesar los informes. Inner Exception Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:30" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:30" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: La definición del informe 'C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar\Reporte\ReportFecha.rdlc' no es válida. Inner Exception Mensaje: Error inesperado al procesar los informes.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:08:31" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:58" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:58" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. The system cannot find the file specified. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:58" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:58" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. The system cannot find the file specified. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:58" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:59" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Error inesperado al procesar los informes. Inner Exception Mensaje: No se puede cargar el archivo o ensamblado 'Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' ni una de sus dependencias. The system cannot find the file specified.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:59" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:59" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: La definición del informe 'C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar\Reporte\ReportFecha.rdlc' no es válida. Inner Exception Mensaje: Error inesperado al procesar los informes.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:13:59" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:16:33" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:16:33" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Se ha intentado establecer un parámetro de informe 'FechaInicio', que no está definido en este informe. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:16:33" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:16:33" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Se ha producido un error durante el procesamiento local de informes. Inner Exception Mensaje: Se ha intentado establecer un parámetro de informe 'FechaInicio', que no está definido en este informe.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:17:20" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:17:20" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se ha proporcionado ninguna instancia de origen de datos para el origen de datos 'DataSet1'. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:17:21" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:14" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:14" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se ha proporcionado ninguna instancia de origen de datos para el origen de datos 'DataSet1'. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:16" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:16" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Invalid object name 'Reporte'. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:17" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:17" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Invalid object name 'Reporte'. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:17" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:17" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Invalid object name 'Reporte'. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:18" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:18" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: Invalid object name 'Reporte'. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:18:18" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:32:56" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:32:56" Severity="Error" Source="WilmerRentCar.Program.Handler" ThreadId="1">
+  <Message>Mensaje: No se ha proporcionado ninguna instancia de origen de datos para el origen de datos 'DataSet1'. Inner Exception Mensaje: </Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:33:04" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="2">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>
+<LogEntry Date="2019-10-13 18:33:04" Severity="Info" Source="WilmerRentCar.Program.Handler" ThreadId="2">
+  <Message>Test entry to see if logging works.</Message>
+</LogEntry>

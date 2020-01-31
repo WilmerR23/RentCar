@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>RentCarDS</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@FechaIncio">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@FechaFinal">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>SELECT [Id] Numero
+        ,[Renta]
+        ,(SELECT CONCAT(v.Placa, ' - ', ma.Nombre, ',', mo.Nombre) FROM Vehículo v INNER JOIN Marcas ma ON v.MarcaId = ma.Id INNER JOIN Modeloes mo ON v.ModeloId = mo.Id WHERE v.Id = rd.VehiculoId) Vehiculo
+        ,(SELECT p.Nombre FROM Clientes c INNER JOIN Personas p ON c.PersonaId = p.Id WHERE c.Id = rd.ClienteId) Cliente
+        ,(SELECT p.Nombre FROM Empleadoes e INNER JOIN Personas p ON e.PersonaId = p.Id WHERE e.Id = rd.EmpleadoId) Empleado
+        ,[FechaRenta]
+        ,[FechaDevolucion]
+        ,[MontoDia]
+        ,[Dias]
+FROM [RentCar].[dbo].[RentaDevolucions] rd WHERE rd.FechaRenta BETWEEN @FechaIncio and @FechaFinal</CommandText>
+      <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+    </Query>
+    <Fields>
+      <Field Name="Numero">
+        <DataField>Numero</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Renta">
+        <DataField>Renta</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Vehiculo">
+        <DataField>Vehiculo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Cliente">
+        <DataField>Cliente</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Empleado">
+        <DataField>Empleado</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FechaRenta">
+        <DataField>FechaRenta</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="FechaDevolucion">
+        <DataField>FechaDevolucion</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="MontoDia">
+        <DataField>MontoDia</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Dias">
+        <DataField>Dias</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

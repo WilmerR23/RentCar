@@ -1,0 +1,11 @@
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.pdb
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.csproj.CoreCompileInputs.cache
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.pdb
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.csprojAssemblyReference.cache
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.csprojAssemblyReference.cache
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.pdb
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.pdb

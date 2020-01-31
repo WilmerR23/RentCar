@@ -1,0 +1,11 @@
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.UTL\bin\Debug\WilmerRentCar.UTL.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.UTL\bin\Debug\WilmerRentCar.UTL.pdb
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.csprojAssemblyReference.cache
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.csproj.CoreCompileInputs.cache
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.dll
+C:\Users\Wilmer\Desktop\Escritorio 2019\Apec\5to\Propietaria 1\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.pdb
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.UTL\bin\Debug\WilmerRentCar.UTL.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.UTL\bin\Debug\WilmerRentCar.UTL.pdb
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.csprojAssemblyReference.cache
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.dll
+C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.pdb
