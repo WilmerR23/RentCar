@@ -9,3 +9,8 @@ C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.
 C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.pdb
 C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.dll
 C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.pdb
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.BOL\bin\Debug\WilmerRentCar.BOL.pdb
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.csprojAssemblyReference.cache
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.BOL\obj\Debug\WilmerRentCar.BOL.pdb

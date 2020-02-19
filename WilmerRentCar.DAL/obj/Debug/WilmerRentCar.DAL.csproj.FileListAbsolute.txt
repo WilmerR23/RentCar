@@ -29,3 +29,18 @@ C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.
 C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.pdb
 C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.WebMigra.resources
 C:\Users\WilmerPC\Desktop\RentCar\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.GenerateResource.cache
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.dll.config
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.DAL.pdb
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\EntityFramework.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.BOL.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\WilmerRentCar.BOL.pdb
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\EntityFramework.xml
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csprojAssemblyReference.cache
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.CopyComplete
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.pdb
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.inititit.resources
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.GenerateResource.cache

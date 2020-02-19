@@ -1,0 +1,49 @@
+﻿@model WilmerRentCar.BOL.Dtos.UsuarioDto
+
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Login | Rent a Car
+    </title>
+    <link rel="stylesheet" href="~/Content/css/Login.css">
+    <link rel="stylesheet" href="~/Content/css/boostrap.css">
+   @* <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>*@
+</head>
+<body>
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        <div class="Login-box">
+            <img class="RcLogo" src="~/Content/img/RCLogo.jpg" alt="RC Logo">
+            <h1>Rent a Car</h1>
+
+            <form>
+                <!--Usuario-->
+                @Html.LabelFor(a => a.Correo)
+                @Html.TextBoxFor(a => a.Correo, new { placeholder = "Email" })
+                @Html.ValidationMessageFor(a => a.Correo)
+                <!-- <input type="text" placeholder="Ingrese su nombre de usuario" id="txtusuario" required> -->
+                <!--Contraseña-->
+                @Html.LabelFor(a => a.Clave)
+                @Html.PasswordFor(a => a.Clave, new { placeholder = "Contraseña" })
+                @Html.ValidationMessageFor(a => a.Clave)
+                @*<label for="usuario">Contraseña</label>
+                <input type="password" placeholder="Ingrese su contraseña" id="txtcontrasena" required>*@
+                <input type="submit" value="Iniciar sesión" id="btniniciasesion">
+
+                <center>
+                    <a href="#">¿Has olvidado tu contraseña?</a><br>
+                    ¿No tienes una cuenta? <a href="Registro.html">Registrate</a>
+                </center>
+            </form>
+
+        </div>
+
+    }
+</body>
+</html>

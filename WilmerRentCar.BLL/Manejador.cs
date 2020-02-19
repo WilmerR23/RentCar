@@ -18,7 +18,6 @@ namespace WilmerRentCar.BLL
     {
         public DbSet<T> _dbSet;
         public RentCarDbContext _RentCarDbContext;
-        public static bool CurrentOperation = true;
 
 
         public Manejador()
@@ -29,44 +28,28 @@ namespace WilmerRentCar.BLL
 
         public void Crear(TDto entity, bool willSave = false)
         {
-            //if (CurrentOperation)
-            //{
             T entidad = Mapper.Map<TDto, T>(entity);
             _dbSet.Add(entidad);
-            CurrentOperation = false;
-
-            if (willSave)
-                _RentCarDbContext.SaveChanges();
-            //}
+            _RentCarDbContext.SaveChanges();
         }
 
         public TDto CrearSync(TDto entity, bool willSave = false)
         {
-            //if (CurrentOperation)
-            //{
             T entidad = Mapper.Map<TDto, T>(entity);
             _dbSet.Add(entidad);
-            CurrentOperation = false;
 
             if (willSave)
                 _RentCarDbContext.SaveChanges();
 
             return Mapper.Map<T, TDto>(entidad);
-            //}
-            //return null;
         }
 
         public void Actualizar(TDto entity)
         {
-            //if (CurrentOperation)
-            //{
             var entidad = Mapper.Map<TDto, T>(entity);
             var ent = _dbSet.Find(entidad.Id);
             Mapper.Map(entity, ent);
-            CurrentOperation = false;
             _RentCarDbContext.SaveChanges();
-
-            //}
         }
 
         public IEnumerable<TDto> ObtenerTodos(string[] paths = null)
@@ -113,9 +96,7 @@ namespace WilmerRentCar.BLL
         public IEnumerable<T> ObtenerTodosPorFiltro(Expression<Func<T, bool>> predicate, string[] paths = null)
         {
             var query = Include(paths);
-            var data = query.Where(predicate).ToList();
-            //var dataMapped = Mapper.Map<List<T>, List<TDto>>(data);
-            
+            var data = query.Where(predicate).ToList();            
             return data; 
         }
 
