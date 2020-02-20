@@ -1,0 +1,52 @@
+﻿@model WilmerRentCar.BOL.Dtos.UsuarioDto
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Registro | Rent a Car
+    </title>
+    <link rel="stylesheet" href="~/Content/css/Register.css">
+    <link rel="stylesheet" href="~/Content/css/boostrap.css">
+</head>
+<body>
+    <div class="Login-box">
+        <img class="RcLogo" src="~/Content/img/RCLogo.jpg" alt="RC Logo">
+        <h1>Registrate aquí !</h1>
+
+        <form>
+
+
+            @Html.LabelFor(a => a.Correo)
+            @Html.TextBoxFor(a => a.Correo, new { placeholder = "Correo electronico" })
+            @Html.ValidationMessageFor(a => a.Correo, null, new { style = "color: red; font-weigth: bold;" })
+
+
+            @Html.LabelFor(a => a.Clave)
+            @Html.PasswordFor(a => a.Clave, new { placeholder = "Contraseña" })
+            @Html.ValidationMessageFor(a => a.Clave, null, new { style = "color: red; font-weigth: bold;" })
+
+            <label>Confirmar contraseña</label>
+            <input type="password" id="txtConfirmarContraseña" placeholder="Contraseña">
+
+            <input type="submit" value="Registrate" id="btnRegistro">
+
+            <center>
+                ¿Tienes una cuenta? <a href="/Account/Login">Entrar</a>
+            </center>
+
+        </form>
+
+
+    </div>
+
+
+    <script src="~/Scripts/app/register.js"></script>
+
+</body>
+</html>

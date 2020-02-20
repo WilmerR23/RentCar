@@ -23,22 +23,20 @@
             <h1>Rent a Car</h1>
 
             <form>
-                <!--Usuario-->
                 @Html.LabelFor(a => a.Correo)
-                @Html.TextBoxFor(a => a.Correo, new { placeholder = "Email" })
-                @Html.ValidationMessageFor(a => a.Correo)
-                <!-- <input type="text" placeholder="Ingrese su nombre de usuario" id="txtusuario" required> -->
-                <!--Contraseña-->
+                @Html.TextBoxFor(a => a.Correo, new { placeholder = "Correo electronico" })
+                @Html.ValidationMessageFor(a => a.Correo, null, new { style = "color: red; font-weigth: bold;" })
+
+
                 @Html.LabelFor(a => a.Clave)
                 @Html.PasswordFor(a => a.Clave, new { placeholder = "Contraseña" })
-                @Html.ValidationMessageFor(a => a.Clave)
-                @*<label for="usuario">Contraseña</label>
-                <input type="password" placeholder="Ingrese su contraseña" id="txtcontrasena" required>*@
+                @Html.ValidationMessageFor(a => a.Clave, null, new { style = "color: red; font-weigth: bold;" })
+
                 <input type="submit" value="Iniciar sesión" id="btniniciasesion">
 
                 <center>
                     <a href="#">¿Has olvidado tu contraseña?</a><br>
-                    ¿No tienes una cuenta? <a href="Registro.html">Registrate</a>
+                    ¿No tienes una cuenta? <a href="/Account/Register">Registrate</a>
                 </center>
             </form>
 

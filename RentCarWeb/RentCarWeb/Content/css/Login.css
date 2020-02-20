@@ -8,7 +8,7 @@ body {
 
 .Login-box {
 width: 320px;
-height: 430px;
+height: 445px;
 background: #fff;
 top: 50%;
 left: 50%;
@@ -29,7 +29,6 @@ padding: 80px 20px;
 
 .Login-box h1 {
     margin: 0;
-    padding: 0 0 20px;
     text-align: center;
     font-size: 36px;
     font-family: brush script MT;
@@ -41,13 +40,13 @@ padding: 80px 20px;
     font-weight: bold;
     display: block;
     font-family: sans-serif;
+    margin-top: 20px;
 }
 
 .Login-box input[type="text"],
 .Login-box input[type="password"] {
     width: 100%;
     font-family: sans-serif;
-    margin-bottom: 20px;
     border: none;
     border-bottom: 1px solid #000;
     background: transparent;
@@ -57,13 +56,13 @@ padding: 80px 20px;
 }
 
 .Login-box input[type="submit"] {
-    margin-bottom: 20px;
     width: 100%;
     font-family: sans-serif;
+    margin-top: 10px;
     border:none;
     outline: none;
     height: 40px;
-    background-color: #ff7f27  ;
+    background-color: #ff7f27;
     color: white;
     font-weight: bold;
     font-size: 16px;

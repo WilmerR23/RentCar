@@ -43,5 +43,28 @@ namespace RentCarWeb.Controllers
             ModelState.AddModelError("", "Invalid login attempt.");
             return View(user);
         }
+
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Register(UsuarioDto user)
+        {
+            if (ModelState.IsValid)
+            {
+                var usuario = _Manejador.ObtenerPorFiltro(x => x.Correo.ToLower() == user.Correo.ToLower() && x.Clave == user.Clave.generateShaText());
+
+                if (usuario != null)
+                {
+                    FormsAuthentication.SetAuthCookie(usuario.Nombre, true);
+                    Session["user"] = usuario.Nombre;
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+            ModelState.AddModelError("", "Invalid login attempt.");
+            return View(user);
+        }
     }
 }
