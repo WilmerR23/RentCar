@@ -44,3 +44,8 @@ C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\
 C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.pdb
 C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.inititit.resources
 C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.csproj.GenerateResource.cache
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.inti23.resources
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.inti232.resources
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.inti23234545.resources
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.inti2323454534.resources
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.inti2323454534rtrtjk.resources

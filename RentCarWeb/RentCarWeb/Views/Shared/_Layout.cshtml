@@ -21,6 +21,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Crear vehiculo", "Crear", "Vehiculo", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
                 </ul>
             </div>
@@ -35,6 +36,18 @@
     </div>
 
     @Scripts.Render("~/bundles/jquery")
+
+    <script type="text/javascript">
+        var directorioVirtual = '@Url.Content("~")';
+        var origen = "";
+
+        if (!window.location.origin)
+            window.location.origin = window.location.protocol + '//' + window.location.host ;
+
+        origen = window.location.origin + directorioVirtual;
+
+    </script>
+
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>

@@ -183,3 +183,5 @@ C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\
 C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\RentCarWeb\RentCarWeb\bin\AutoMapper.pdb
 C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\RentCarWeb\RentCarWeb\bin\AutoMapper.xml
 C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\RentCarWeb\RentCarWeb\bin\System.ValueTuple.xml
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\RentCarWeb\RentCarWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\wilmer.ramirez\Desktop\Apec\6 Cuatrimestre\Propietaria II\Propietaria2\RentCarWeb\RentCarWeb\bin\EntityFramework.SqlServer.xml

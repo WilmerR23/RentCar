@@ -13,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,6 +55,26 @@
     <Compile Include="Migrations\202002192013429_inititit.Designer.cs">
       <DependentUpon>202002192013429_inititit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002211551266_inti23.cs" />
+    <Compile Include="Migrations\202002211551266_inti23.Designer.cs">
+      <DependentUpon>202002211551266_inti23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002211658261_inti232.cs" />
+    <Compile Include="Migrations\202002211658261_inti232.Designer.cs">
+      <DependentUpon>202002211658261_inti232.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002211727452_inti23234545.cs" />
+    <Compile Include="Migrations\202002211727452_inti23234545.Designer.cs">
+      <DependentUpon>202002211727452_inti23234545.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002211816427_inti2323454534.cs" />
+    <Compile Include="Migrations\202002211816427_inti2323454534.Designer.cs">
+      <DependentUpon>202002211816427_inti2323454534.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002212038130_inti2323454534rtrtjk.cs" />
+    <Compile Include="Migrations\202002212038130_inti2323454534rtrtjk.Designer.cs">
+      <DependentUpon>202002212038130_inti2323454534rtrtjk.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RentCarDbContext.cs" />
@@ -70,6 +92,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202002192013429_inititit.resx">
       <DependentUpon>202002192013429_inititit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211551266_inti23.resx">
+      <DependentUpon>202002211551266_inti23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211658261_inti232.resx">
+      <DependentUpon>202002211658261_inti232.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211727452_inti23234545.resx">
+      <DependentUpon>202002211727452_inti23234545.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211816427_inti2323454534.resx">
+      <DependentUpon>202002211816427_inti2323454534.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002212038130_inti2323454534rtrtjk.resx">
+      <DependentUpon>202002212038130_inti2323454534rtrtjk.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

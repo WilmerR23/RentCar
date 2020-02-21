@@ -15,8 +15,7 @@ namespace WilmerRentCar.BOL.Dtos
 
         [Display(Name = "Correo")]
         [Required(AllowEmptyStrings = false, ErrorMessage = "Correo es requerido")]
-        [DataType(DataType.EmailAddress)]
+        [EmailAddress(ErrorMessage = "Correo no valido")]
         public string Correo { get; set; }
-        public int EmpleadoId { get; set; }
     }
 }

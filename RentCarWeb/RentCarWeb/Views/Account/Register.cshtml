@@ -13,39 +13,40 @@
     </title>
     <link rel="stylesheet" href="~/Content/css/Register.css">
     <link rel="stylesheet" href="~/Content/css/boostrap.css">
+    <link rel="stylesheet" href="~/Content/bootstrap-theme.css">
 </head>
 <body>
-    <div class="Login-box">
-        <img class="RcLogo" src="~/Content/img/RCLogo.jpg" alt="RC Logo">
-        <h1>Registrate aquí !</h1>
-
-        <form>
-
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { id = "form-registro" }))
+    {
+        <div class="Login-box">
+            <img class="RcLogo" src="~/Content/img/RCLogo.jpg" alt="RC Logo">
+            <h1>Registrate aquí !</h1>
 
             @Html.LabelFor(a => a.Correo)
-            @Html.TextBoxFor(a => a.Correo, new { placeholder = "Correo electronico" })
-            @Html.ValidationMessageFor(a => a.Correo, null, new { style = "color: red; font-weigth: bold;" })
+            @Html.TextBoxFor(a => a.Correo, new { placeholder = "Correo electronico", id = "txtCorreo" })
+            @*@Html.ValidationMessageFor(a => a.Correo, null, new { style = "color: red; font-weigth: bold;" })*@
 
 
             @Html.LabelFor(a => a.Clave)
-            @Html.PasswordFor(a => a.Clave, new { placeholder = "Contraseña" })
-            @Html.ValidationMessageFor(a => a.Clave, null, new { style = "color: red; font-weigth: bold;" })
+            @Html.PasswordFor(a => a.Clave, new { placeholder = "Contraseña", id = "txtClave" })
+            @*@Html.ValidationMessageFor(a => a.Clave, null, new { style = "color: red; font-weigth: bold;" })*@
 
             <label>Confirmar contraseña</label>
             <input type="password" id="txtConfirmarContraseña" placeholder="Contraseña">
+            <label id="txtError" style="display: none; color:red;">Contraseña no coinciden</label>
 
             <input type="submit" value="Registrate" id="btnRegistro">
 
             <center>
                 ¿Tienes una cuenta? <a href="/Account/Login">Entrar</a>
             </center>
+        </div>
 
-        </form>
+        <div id="divMessageUser">
+        </div>
+    }
 
-
-    </div>
-
-
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
     <script src="~/Scripts/app/register.js"></script>
 
 </body>

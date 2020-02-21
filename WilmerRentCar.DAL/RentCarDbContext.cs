@@ -10,7 +10,7 @@ namespace WilmerRentCar.DAL
 {
     public class RentCarDbContext : DbContext
     {
-        public RentCarDbContext() : base("RentCar") {
+        public RentCarDbContext() : base("RentCarWeb") {
 
         }
 

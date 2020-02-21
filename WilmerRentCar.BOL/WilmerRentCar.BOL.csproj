@@ -35,6 +35,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +48,7 @@
     <Compile Include="Clientes.cs" />
     <Compile Include="Dtos\BaseEntityDto.cs" />
     <Compile Include="Dtos\ClientesDto.cs" />
+    <Compile Include="Dtos\ImagenesDto.cs" />
     <Compile Include="Dtos\MarcaDto.cs" />
     <Compile Include="Dtos\ModeloDto.cs" />
     <Compile Include="Dtos\RentaDevolucionDto.cs" />
@@ -54,6 +56,7 @@
     <Compile Include="Dtos\TipoVehiculoDto.cs" />
     <Compile Include="Dtos\UsuarioDto.cs" />
     <Compile Include="Dtos\VehículoDto.cs" />
+    <Compile Include="Imagenes.cs" />
     <Compile Include="Marca.cs" />
     <Compile Include="Modelo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

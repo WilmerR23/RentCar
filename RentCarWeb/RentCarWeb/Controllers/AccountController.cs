@@ -31,16 +31,16 @@ namespace RentCarWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                var usuario = _Manejador.ObtenerPorFiltro(x => x.Correo.ToLower() == user.Correo.ToLower() && x.Clave == user.Clave.generateShaText());
+                string claveGenerada = user.Clave.generateShaText();
+                var usuario = _Manejador.ObtenerPorFiltro(x => x.Correo.ToLower() == user.Correo.ToLower() && x.Clave == claveGenerada);
 
                 if (usuario != null)
                 {
-                    FormsAuthentication.SetAuthCookie(usuario.Nombre, true);
-                    Session["user"] = usuario.Nombre;
+                    FormsAuthentication.SetAuthCookie(usuario.Correo, true);
+                    Session["user"] = usuario;
                     return RedirectToAction("Index", "Home");
                 }
             }
-            ModelState.AddModelError("", "Invalid login attempt.");
             return View(user);
         }
 
@@ -54,17 +54,10 @@ namespace RentCarWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                var usuario = _Manejador.ObtenerPorFiltro(x => x.Correo.ToLower() == user.Correo.ToLower() && x.Clave == user.Clave.generateShaText());
-
-                if (usuario != null)
-                {
-                    FormsAuthentication.SetAuthCookie(usuario.Nombre, true);
-                    Session["user"] = usuario.Nombre;
-                    return RedirectToAction("Index", "Home");
-                }
+                user.Clave = user.Clave.generateShaText();
+                _Manejador.Crear(user,true);
             }
-            ModelState.AddModelError("", "Invalid login attempt.");
-            return View(user);
+            return View("Login");
         }
     }
 }

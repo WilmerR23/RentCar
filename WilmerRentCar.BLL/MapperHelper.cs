@@ -29,7 +29,13 @@ namespace WilmerRentCar.BLL
 
                 config.CreateMap<BOL.Vehículo, BOL.Dtos.VehículoDto>()
                 .ForMember(x => x.Nombre, cpf => cpf.MapFrom(b => string.Format("{0} - {1},{2}", b.Placa, b.Marca.Nombre, b.Modelo.Nombre)))
-                .ReverseMap();
+                .ForMember(x => x.MarcaDescripcion, cpf => cpf.MapFrom(b => b.Marca.Nombre))
+                .ForMember(x => x.ModeloDescripcion, cpf => cpf.MapFrom(b => b.Modelo.Nombre))
+                .ForMember(x => x.TipoVehiculoDescripcion, cpf => cpf.MapFrom(b => b.TipoVehiculo.Nombre))
+                .ReverseMap()
+                .ForMember(x => x.Modelo, cpf => cpf.Ignore())
+                .ForMember(x => x.Marca, cpf => cpf.Ignore())
+                .ForMember(x => x.TipoVehiculo, cpf => cpf.Ignore());
 
                 //config.CreateMap<BOL.Empleado, BOL.Dtos.EmpleadoDto>()
                 //.ForMember(x => x.Nombre, cpf => cpf.MapFrom(b => b.Persona.Nombre))

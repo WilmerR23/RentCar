@@ -29,13 +29,29 @@ namespace WilmerRentCar.BLL
         public void Crear(TDto entity, bool willSave = false)
         {
             T entidad = Mapper.Map<TDto, T>(entity);
+            entidad.FechaCreacion = DateTime.Now;
+            entidad.Estado = true;
             _dbSet.Add(entidad);
             _RentCarDbContext.SaveChanges();
         }
 
+        public List<TDto> CrearRange(List<TDto> entities, bool willSave = false)
+        {
+            List<T> entidades = Mapper.Map<List<TDto>, List<T>>(entities);
+            entidades.ForEach((x) => { x.Estado = true; x.FechaCreacion = DateTime.Now; });
+            _dbSet.AddRange(entidades);
+            _RentCarDbContext.SaveChanges();
+
+            return Mapper.Map<List<T>, List<TDto>>(entidades);
+        }
+
+        
+
         public TDto CrearSync(TDto entity, bool willSave = false)
         {
             T entidad = Mapper.Map<TDto, T>(entity);
+            entidad.FechaCreacion = DateTime.Now;
+            entidad.Estado = true;
             _dbSet.Add(entidad);
 
             if (willSave)
@@ -44,12 +60,17 @@ namespace WilmerRentCar.BLL
             return Mapper.Map<T, TDto>(entidad);
         }
 
-        public void Actualizar(TDto entity)
+        public TDto Actualizar(TDto entity)
         {
             var entidad = Mapper.Map<TDto, T>(entity);
             var ent = _dbSet.Find(entidad.Id);
+            var fecha = ent.FechaCreacion;
             Mapper.Map(entity, ent);
+            ent.FechaCreacion = fecha;
+            ent.Estado = true;
             _RentCarDbContext.SaveChanges();
+
+            return Mapper.Map<T, TDto>(ent);
         }
 
         public IEnumerable<TDto> ObtenerTodos(string[] paths = null)
