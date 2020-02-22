@@ -21,12 +21,23 @@ namespace RentCarWeb.Controllers
         }
 
         // GET: Account
+        [AllowAnonymous]
         public ActionResult Login()
         {
             return View();
         }
 
+        // GET: Account
+        [Authorize]
+        public ActionResult EditarPerfil()
+        {
+            var user = Session["user"] as UsuarioDto;
+            ViewBag.idUsuario = user != null ? user.Id : 0;
+            return View(user);
+        }
+
         [HttpPost]
+        [AllowAnonymous]
         public ActionResult Login(UsuarioDto user)
         {
             if (ModelState.IsValid)
@@ -44,12 +55,14 @@ namespace RentCarWeb.Controllers
             return View(user);
         }
 
+        [AllowAnonymous]
         public ActionResult Register()
         {
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public ActionResult Register(UsuarioDto user)
         {
             if (ModelState.IsValid)

@@ -118,26 +118,28 @@ $(document).ready(function() {
                     });
 
                     ajaxImgRequest.done(function (data) {
-                        alert(data);
                         clearValues();
                         table.ajax.reload();
+                        swal({
+                            //title: 'Enhorabuena',
+                            text: "Su información ha sido registrada",
+                            type: 'success',
+                            allowOutsideClick: false,
+                            showCancelButton: false,
+                            confirmButtonColor: '#3085d6',
+                            confirmButtonText: 'Ok'
+                        }).then(function (result) {
+                            //if (result.value) {
+                            //    window.location.href = origen + 'Home';
+                            //}
+                        });
                     });
 
-                    //swal({
-                    //    //title: 'Enhorabuena',
-                    //    text: "Su información ha sido registrada",
-                    //    type: 'success',
-                    //    allowOutsideClick: false,
-                    //    showCancelButton: false,
-                    //    confirmButtonColor: '#3085d6',
-                    //    confirmButtonText: 'Ok'
-                    //}).then(function (result) {
-                    //    if (result.value) {
-                    //        window.location.href = origen + 'Home';
-                    //    }
-                    //})
+                    
                 }
-                else { }
+                else {
+
+                }
                 //swal('Atención', resultado.Mensaje, 'warning')
             });
 
@@ -151,7 +153,19 @@ $(document).ready(function() {
                 //}
             })
         } else {
-            alert("Debe llenar todos los campos");
+            swal({
+                //title: 'Enhorabuena',
+                text: "Debe llenar todos los campos",
+                type: 'error',
+                allowOutsideClick: false,
+                showCancelButton: false,
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'Ok'
+            }).then(function (result) {
+                //if (result.value) {
+                //    window.location.href = origen + 'Home';
+                //}
+            })
         }
     });
 
@@ -178,7 +192,20 @@ function changeMarca(callback) {
 
         }, 'json')
             .fail(function () {
-                alert("Ha ocurrido un error.", "error");
+                swal({
+                    //title: 'Enhorabuena',
+                    text: "Ha ocurrido un error.",
+                    type: 'error',
+                    allowOutsideClick: false,
+                    showCancelButton: false,
+                    confirmButtonColor: '#3085d6',
+                    confirmButtonText: 'Ok'
+                }).then(function (result) {
+                    //if (result.value) {
+                    //    window.location.href = origen + 'Home';
+                    //}
+                });
+
             })
             .always(function () {
                 // $("#modalLoading").modal("hide");
@@ -237,7 +264,19 @@ function verImagenes(id) {
 
     }, 'json')
         .fail(function () {
-            alert("Ha ocurrido un error.", "error");
+            swal({
+                //title: 'Enhorabuena',
+                text: "Ha ocurrido un error.",
+                type: 'error',
+                allowOutsideClick: false,
+                showCancelButton: false,
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'Ok'
+            }).then(function (result) {
+                //if (result.value) {
+                //    window.location.href = origen + 'Home';
+                //}
+            });
         })
         .always(function () {
             // $("#modalLoading").modal("hide");
@@ -265,12 +304,36 @@ function editVehiculo(id) {
 
 function deleteVehiculo(id) {
     $.get(`${origen}api/Vehiculo/BorrarVehiculo/${id}`, function (data) {
-
-        alert("Vehiculo borrado");
+        
+        swal({
+            //title: 'Enhorabuena',
+            text: "Vehiculo borrado satisfactoriamente.",
+            type: 'success',
+            allowOutsideClick: false,
+            showCancelButton: false,
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: 'Ok'
+        }).then(function (result) {
+            //if (result.value) {
+            //    window.location.href = origen + 'Home';
+            //}
+        });
 
     }, 'json')
         .fail(function () {
-            alert("Ha ocurrido un error.", "error");
+            swal({
+                //title: 'Enhorabuena',
+                text: "Ha ocurrido un error.",
+                type: 'error',
+                allowOutsideClick: false,
+                showCancelButton: false,
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'Ok'
+            }).then(function (result) {
+                //if (result.value) {
+                //    window.location.href = origen + 'Home';
+                //}
+            });
         })
         .always(function () {
             // $("#modalLoading").modal("hide");
