@@ -14,6 +14,8 @@ namespace WilmerRentCar.BOL
         public int TipoVehiculoId { get; set; }
         public int MarcaId { get; set; }
         public int ModeloId { get; set; }
+
+        public int Monto { get; set; }
         //public int TipoCombustibleId { get; set; }
 
         public int Año { get; set; }

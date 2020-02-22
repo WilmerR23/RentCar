@@ -24,7 +24,15 @@ namespace RentCarWeb.Controllers.api
         [Route("EditarPerfil")]
         public IHttpActionResult EditarPerfil([FromBody] UsuarioDto vm)
         {
-            var entidad = _Manejador.Actualizar(vm);
+            UsuarioDto entidad = new UsuarioDto();
+            if (vm.Id != 0)
+            {
+                UsuarioDto vm2 = _Manejador.ObtenerPorFiltro(x => x.Id == vm.Id);
+                vm.Clave = vm2.Clave;
+                vm.Correo = vm2.Correo;
+                entidad = _Manejador.Actualizar(vm);
+                //Session["user"] = entidad;
+            }
             return Ok(entidad.Id);
         }
     }

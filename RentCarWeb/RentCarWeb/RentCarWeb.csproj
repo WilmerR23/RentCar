@@ -199,6 +199,7 @@
     <Content Include="Scripts\app\momentl.js" />
     <Content Include="Scripts\app\moment.js" />
     <Content Include="Scripts\app\register.js" />
+    <Content Include="Scripts\app\sweetAlert.js" />
     <Content Include="Scripts\app\Vehiculo.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

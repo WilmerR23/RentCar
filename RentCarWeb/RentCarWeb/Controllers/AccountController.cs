@@ -31,7 +31,12 @@ namespace RentCarWeb.Controllers
         [Authorize]
         public ActionResult EditarPerfil()
         {
-            var user = Session["user"] as UsuarioDto;
+            UsuarioDto user = null;
+            if (Session["userId"] != null)
+            {
+                var id = int.Parse(Session["userId"].ToString());
+                user = _Manejador.ObtenerPorFiltro(x => x.Id == id);
+            }
             ViewBag.idUsuario = user != null ? user.Id : 0;
             return View(user);
         }
@@ -47,8 +52,9 @@ namespace RentCarWeb.Controllers
 
                 if (usuario != null)
                 {
-                    FormsAuthentication.SetAuthCookie(usuario.Correo, true);
-                    Session["user"] = usuario;
+                    FormsAuthentication.SetAuthCookie(usuario.Correo, false);
+                    //Session["user"] = usuario;
+                    Session["userId"] = usuario.Id;
                     return RedirectToAction("Index", "Home");
                 }
             }

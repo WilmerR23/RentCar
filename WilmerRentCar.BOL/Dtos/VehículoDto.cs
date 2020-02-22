@@ -16,6 +16,8 @@ namespace WilmerRentCar.BOL.Dtos
 
         public int Año { get; set; }
 
+        public int Monto { get; set; }
+
         public TipoVehiculoDto TipoVehiculo { get; set; }
         public MarcaDto Marca { get; set; }
         public ModeloDto Modelo { get; set; }

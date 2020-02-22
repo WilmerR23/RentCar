@@ -64,16 +64,7 @@ namespace RentCarWeb.Controllers
             //ViewBag.Modelo = _ManejadorModelo.ObtenerTodos();
             return View();
         }
-
-        public JsonResult GuardaVehiculo()
-        {
-            var model = Request.Form["vm"];
-            var docs = Request.Files["vm"];
-
-            var TodosDocumentos = Request.Files["Imagenes"];
-            return Json("OK");
-        }
-
+        
         [HttpGet]
         public JsonResult ObtenerModelos(int idMarca)
         {

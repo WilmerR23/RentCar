@@ -42,6 +42,9 @@ $(document).ready(function() {
                 "data": "Placa", "title": "Placa"
             },
             {
+                "data": "Monto", "title": "Monto por dia"
+            },
+            {
                 "data": "FechaCreacion", "title": "Fecha de creación", "render": function (data) {
                     moment.locale('es');
                     return moment(data).format('LL');
@@ -81,15 +84,17 @@ $(document).ready(function() {
         var modeloId = $("#modelo").val();
         var año = $("#anovehiculo").val();
         var placa = $("#placa").val();
+        var monto = $("#monto").val();
         var files = $('#imagenes')[0].files;
 
-        if (tipoVehiculoId != 0 && marcaId != 0 && modeloId != 0 && año != "" && placa != "" && files.length > 0) {
+        if (tipoVehiculoId != 0 && marcaId != 0 && modeloId != 0 && año != "" && placa != "" && monto > 0) {
 
             obj.Placa = placa;
             obj.TipoVehiculoId = tipoVehiculoId;
             obj.MarcaId = marcaId;
             obj.ModeloId = modeloId;
             obj.Año = año;
+            obj.Monto = monto;
 
             var url = `${origen}api/Vehiculo/GuardarVehiculo`;
 
@@ -220,8 +225,12 @@ function clearValues() {
     $("#marca").val(0);
     $("#modelo").val(0);
     $("#anovehiculo").val("");
+    $("#monto").val("");
     $("#placa").val("");
     $("#imagenes").val('');
+    $("#btnguardar").html("Guardar");
+    $("#btnguardar").addClass("btn-success");
+    $("#btnguardar").removeClass("btn-primary");
     obj = {};
 }
 
@@ -297,6 +306,7 @@ function editVehiculo(id) {
     $("#marca").val(item.MarcaId).change();
     $("#anovehiculo").val(item.Año);
     $("#placa").val(item.Placa);
+    $("#monto").val(item.Monto);
     $("#btnguardar").html("Actualizar");
     $("#btnguardar").removeClass("btn-success");
     $("#btnguardar").addClass("btn-primary");

@@ -24,7 +24,7 @@ $("#btnguardar").on("click", function () {
     obj.Telefono = txtTelefono;
     obj.Celular = txtCelular;
 
-        var url = `${origen}api/Account/EditarVehiculo`;
+        var url = `${origen}api/Account/EditarPerfil`;
 
         var ajaxRequest = $.ajax({
             type: "POST",

@@ -1,8 +1,9 @@
-﻿
+﻿@model WilmerRentCar.BOL.Dtos.UsuarioDto
 @{
     ViewBag.Title = "EditarPerfil";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var idUsuario = ViewBag.idUsuario;
+    var jss = new System.Web.Script.Serialization.JavaScriptSerializer();
+    var idUsuario = jss.Serialize(ViewBag.idUsuario);
 }
 
 <div>
@@ -12,32 +13,45 @@
         <div class="row">
             <div class="col-sm-4 col-md-4">
                 <label style="margin-bottom: 2px;">Nombre</label>
-                <input type="text" class="form-control" style="min-width:200px;" id="txtNombre" placeholder="Ingresar nombre completo">
+          @*      <input type="text" class="form-control" style="min-width:200px;" id="txtNombre" placeholder="Ingresar nombre completo">*@
+                @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", style ="min-width:200px;", id = "txtNombre", placeholder = "Ingresar nombre completo" })
             </div>
 
             <div class="col-sm-4 col-md-4">
                 <label style="margin-bottom: 2px;">Cédula</label>
-                <input type="text" class="form-control" style="min-width:200px;" id="txtCedula" placeholder="Ingresar cédula">
+                @*<input type="text" class="form-control" style="min-width:200px;" id="txtCedula" placeholder="Ingresar cédula">*@
+                @Html.TextBoxFor(m => m.Cedula, new { @class = "form-control", style = "min-width:200px;", id = "txtCedula", placeholder = "Ingresar cédula" })
+
             </div>
 
             <div class="col-sm-4 col-md-4">
                 <label style="margin-bottom: 2px;">Tarjeta de credito</label>
-                <input type="text" class="form-control" style="min-width:200px;" id="txtTarjetaCredito" placeholder="Ingresar tarjeta de credito">
-            </div>
+                @*<input type="text" class="form-control" style="min-width:200px;" id="txtTarjetaCredito" placeholder="Ingresar tarjeta de credito">*@
+                @Html.TextBoxFor(m => m.TarjetaCredito, new { @class = "form-control", style = "min-width:200px;", id = "txtTarjetaCredito", placeholder = "Ingresar tarjeta de credito" })
 
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 15px;">
             <div class="col-sm-4 col-md-4">
                 <label style="margin-bottom: 2px;">Dirección</label>
-                <input type="text" class="form-control" style="min-width:200px;" id="txtDireccion" placeholder="Ingresar dirección">
+                @*<input type="text" class="form-control" style="min-width:200px;" id="txtDireccion" placeholder="Ingresar dirección">*@
+                @Html.TextBoxFor(m => m.Direccion, new { @class = "form-control", style = "min-width:200px;", id = "txtDireccion", placeholder = "Ingresar dirección" })
+
             </div>
 
             <div class="col-sm-4 col-md-4">
                 <label style="margin-bottom: 2px;">Telefono</label>
-                <input type="text" class="form-control" style="min-width:200px;" id="txtTelefono" placeholder="Ingresar telefono">
+                @*<input type="text" class="form-control" style="min-width:200px;" id="txtTelefono" placeholder="Ingresar telefono">*@
+                @Html.TextBoxFor(m => m.Telefono, new { @class = "form-control", style = "min-width:200px;", id = "txtTelefono", placeholder = "Ingresar telefono" })
+
             </div>
 
             <div class="col-sm-4 col-md-4">
                 <label style="margin-bottom: 2px;">Celular</label>
-                <input type="text" class="form-control" style="min-width:200px;" id="txtCelular" placeholder="Ingresar celular">
+                @*<input type="text" class="form-control" style="min-width:200px;" id="txtCelular" placeholder="Ingresar celular">*@
+                @Html.TextBoxFor(m => m.Celular, new { @class = "form-control", style = "min-width:200px;", id = "txtCelular", placeholder = "Ingresar celular" })
+
             </div>
         </div>
 
@@ -50,14 +64,16 @@
         </div>
     </div>
 
+    @section scripts {
+
     <script src="~/Scripts/app/EditarPerfil.js"></script>
     <script src="~/Scripts/app/mask.js"></script>
 
     <script type="text/javascript">
+                
+    var idUsuario = JSON.parse('@Html.Raw(idUsuario)');
 
-        var jss = new System.Web.Script.Serialization.JavaScriptSerializer();
-        var idUsuario = jss.Serialize(@idUsuario);
-
-    </script>
+    </script> 
+        }
 </div>
 
