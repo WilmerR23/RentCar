@@ -1,24 +1,113 @@
-﻿
+﻿@model List<WilmerRentCar.BOL.Dtos.VehículoDto>
+
+@section styles {
+    <style type="text/css">
+        
+    #row-parent > div {
+        margin-top: 7px;
+    }
+
+    .modal {
+    position: fixed;
+    left: 22%;
+    }
+
+    </style>
+}
+
 <div>
     <div class="container">
         <br><h3>Rentar vehiculo </h3><hr>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="https://as.ftcdn.net/r/v1/pics/7b11b8176a3611dbfb25406156a6ef50cd3a5009/home/discover_collections/optimized/image-2019-10-11-11-36-27-681.jpg" />
-            </div>
 
-            <div class="col-md-6">
-                <h3>Titulo</h3>
-                <h3>Descripcion</h3>
-                <h4>Año</h4>
-                <h4>Marca</h4>
-                <h4>Modelo</h4>
-                <h4>Tipo</h4>
-            </div>
+        @foreach (var vehiculos in Model)
+        {
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-4">
+                    @*<img src="https://as.ftcdn.net/r/v1/pics/7b11b8176a3611dbfb25406156a6ef50cd3a5009/home/discover_collections/optimized/image-2019-10-11-11-36-27-681.jpg" *@
 
-            <div class="col-md-2">
-                <button class="btn btn-lg btn-success">Rentar</button>
+                    <img style="max-width: 372px;" src="data:image/jpg;base64,@vehiculos.ImagenPrincipal" />
+                </div>
+
+                <div class="col-md-6">
+                    <h4><strong>Descripción:</strong> @vehiculos.Nombre</h4>
+                    <h4><strong>Fecha:</strong> @vehiculos.FechaCreacion</h4>
+                    <h4><strong>Año:</strong> @vehiculos.Año</h4>
+                    <h4><strong>Marca:</strong> @vehiculos.MarcaDescripcion</h4>
+                    <h4><strong>Modelo:</strong> @vehiculos.ModeloDescripcion</h4>
+                    <h4><strong>Tipo:</strong> @vehiculos.TipoVehiculoDescripcion</h4>
+                    <h4><strong>Monto por día:</strong> @vehiculos.Monto RD$</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <button class="btn btn-lg btn-success" onclick="btnRentarClick(@vehiculos.Id)" id="btnRentar">Rentar</button>
+                </div>
+            </div>
+        }
+
+
+        <!-- Modal -->
+        <div id="modal-renta" class="modal fade modal-lg" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Rentar vehículo</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row" style="text-align: center;">
+                            <img src="#" id="img-vehiculo" style="max-width: 300px;" />
+                        </div>
+                        <div class="row" id="row-parent" style="margin-top: 20px;">
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Marca</label>
+                                <input type="text" class="form-control" style="min-width:200px;" id="marcavehiculo" disabled />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Modelo</label>
+                                <input type="text" class="form-control" style="min-width:200px;" id="modelovehiculo" disabled />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Monto por día</label>
+                                <input type="text" class="form-control" style="min-width:200px;" id="montodia" disabled />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Año</label>
+                                <input type="text" class="form-control" style="min-width:200px;" id="anovehiculo" disabled />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Días</label>
+                                <input type="number" class="form-control" style="min-width:200px;" id="dias" />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Total</label>
+                                <input class="form-control" style="min-width:200px;" id="total" disabled />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Servicio a domicilio</label>
+                                <input style="display: block;" type="checkbox" id="servicio-domicilio" />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <button type="button" style="float: right;" class="btn btn-success">Rentar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
+
+@section scripts {
+    <script type="text/javascript">
+
+        var modelo = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model, Newtonsoft.Json.Formatting.Indented));
+
+    </script>
+    <script type="text/javascript" src="~/Scripts/app/rentar.js"></script>
+
+}

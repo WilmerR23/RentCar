@@ -78,5 +78,13 @@ namespace RentCarWeb.Controllers
             }
             return View("Login");
         }
+
+        [AllowAnonymous]
+        public ActionResult SignOut()
+        {
+            FormsAuthentication.SignOut();
+            Session["userId"] = null;
+            return View("Login");
+        }
     }
 }

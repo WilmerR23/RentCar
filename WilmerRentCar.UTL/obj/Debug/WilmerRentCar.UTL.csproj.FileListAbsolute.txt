@@ -20,3 +20,8 @@ C:\Users\20181134\Downloads\project\Propietaria2\WilmerRentCar.UTL\obj\Debug\Wil
 C:\Users\20181134\Downloads\project\Propietaria2\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.csproj.CoreCompileInputs.cache
 C:\Users\20181134\Downloads\project\Propietaria2\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.dll
 C:\Users\20181134\Downloads\project\Propietaria2\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.pdb
+C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.UTL\bin\Debug\WilmerRentCar.UTL.dll
+C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.UTL\bin\Debug\WilmerRentCar.UTL.pdb
+C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.csprojAssemblyReference.cache
+C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.dll
+C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.UTL\obj\Debug\WilmerRentCar.UTL.pdb

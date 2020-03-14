@@ -32,6 +32,7 @@ namespace WilmerRentCar.BLL
                 .ForMember(x => x.MarcaDescripcion, cpf => cpf.MapFrom(b => b.Marca.Nombre))
                 .ForMember(x => x.ModeloDescripcion, cpf => cpf.MapFrom(b => b.Modelo.Nombre))
                 .ForMember(x => x.TipoVehiculoDescripcion, cpf => cpf.MapFrom(b => b.TipoVehiculo.Nombre))
+                .ForMember(x => x.ImagenPrincipal, cpf => cpf.MapFrom(b => Convert.ToBase64String(b.Imagenes.FirstOrDefault().Contenido)))
                 .ReverseMap()
                 .ForMember(x => x.Modelo, cpf => cpf.Ignore())
                 .ForMember(x => x.Marca, cpf => cpf.Ignore())

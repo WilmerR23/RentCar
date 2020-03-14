@@ -27,5 +27,7 @@ namespace WilmerRentCar.BOL.Dtos
         public string ModeloDescripcion { get; set; }
         public string TipoVehiculoDescripcion { get; set; }
         public string MarcaDescripcion { get; set; }
+
+        public string ImagenPrincipal { get; set; }
     }
 }

@@ -13,7 +13,6 @@ namespace WilmerRentCar.BOL
         public int ClienteId { get; set; }
         public DateTime FechaRenta { get; set; }
         public DateTime FechaDevolucion { get; set; }
-        public int MontoDia { get; set; }
         public int Dias { get; set; }
 
 

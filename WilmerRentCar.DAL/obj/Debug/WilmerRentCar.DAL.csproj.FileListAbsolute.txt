@@ -91,3 +91,4 @@ C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.DAL\ob
 C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.pdb
 C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.i234234.resources
 C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.i234234232432.resources
+C:\Users\WilmerPC\Desktop\Apec\6to\Propietaria\Propietaria2\WilmerRentCar.DAL\obj\Debug\WilmerRentCar.DAL.Migrations.initial2323.resources

@@ -16,6 +16,6 @@ namespace WilmerRentCar.BOL.Dtos
 
         public string ContenidoBase64 { get; set; }
 
-        public VehículoDto Vehículo { get; set; }
+        //public VehículoDto Vehículo { get; set; }
     }
 }
