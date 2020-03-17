@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Web;
 using System.Web.Http;
 using System.Web.Http.ModelBinding;
 using WilmerRentCar.BLL;
@@ -13,14 +14,17 @@ using WilmerRentCar.BOL.Dtos;
 namespace RentCarWeb.Controllers.api
 {
     [RoutePrefix("api/Vehiculo")]
+    [Authorize]
     public class VehiculoController : ApiController
     {
         private Manejador<Vehículo, VehículoDto> _Manejador;
+        private Manejador<RentaDevolucion, RentaDevolucionDto> _ManejadorRenta;
         private Manejador<Imagenes, ImagenesDto> _ManejadorImagenes;
 
         public VehiculoController()
         {
-            _Manejador = new Manejador<Vehículo, VehículoDto>();
+            _Manejador = new Manejador<Vehículo, VehículoDto>(); 
+            _ManejadorRenta = new Manejador<RentaDevolucion, RentaDevolucionDto>();
             _ManejadorImagenes = new Manejador<Imagenes, ImagenesDto>();
         }
 
@@ -37,6 +41,15 @@ namespace RentCarWeb.Controllers.api
             {
                 vm = _Manejador.CrearSync(vm, true);
             }
+            return Ok(vm.Id);
+        }
+
+        [HttpPost]
+        [Route("RentaVehiculo")]
+        public IHttpActionResult RentaVehiculo([FromBody] RentaDevolucionDto vm)
+        {
+            vm.UsuarioId = Convert.ToInt32(HttpContext.Current.Session["userId"]?.ToString());
+            vm = _ManejadorRenta.CrearSync(vm, true);
             return Ok(vm.Id);
         }
 

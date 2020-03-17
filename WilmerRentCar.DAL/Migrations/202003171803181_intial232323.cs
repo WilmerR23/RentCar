@@ -3,16 +3,16 @@ namespace WilmerRentCar.DAL.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class initial2323 : DbMigration
+    public partial class intial232323 : DbMigration
     {
         public override void Up()
         {
-            DropColumn("dbo.RentaDevolucions", "MontoDia");
+            AddColumn("dbo.RentaDevolucions", "ServicioDomicilio", c => c.Boolean(nullable: false));
         }
         
         public override void Down()
         {
-            AddColumn("dbo.RentaDevolucions", "MontoDia", c => c.Int(nullable: false));
+            DropColumn("dbo.RentaDevolucions", "ServicioDomicilio");
         }
     }
 }

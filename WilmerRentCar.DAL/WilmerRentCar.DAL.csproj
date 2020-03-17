@@ -51,41 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\202002192013429_inititit.cs" />
-    <Compile Include="Migrations\202002192013429_inititit.Designer.cs">
-      <DependentUpon>202002192013429_inititit.cs</DependentUpon>
+    <Compile Include="Migrations\202003171803181_intial232323.cs" />
+    <Compile Include="Migrations\202003171803181_intial232323.Designer.cs">
+      <DependentUpon>202003171803181_intial232323.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202002211551266_inti23.cs" />
-    <Compile Include="Migrations\202002211551266_inti23.Designer.cs">
-      <DependentUpon>202002211551266_inti23.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002211658261_inti232.cs" />
-    <Compile Include="Migrations\202002211658261_inti232.Designer.cs">
-      <DependentUpon>202002211658261_inti232.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002211727452_inti23234545.cs" />
-    <Compile Include="Migrations\202002211727452_inti23234545.Designer.cs">
-      <DependentUpon>202002211727452_inti23234545.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002211816427_inti2323454534.cs" />
-    <Compile Include="Migrations\202002211816427_inti2323454534.Designer.cs">
-      <DependentUpon>202002211816427_inti2323454534.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002212038130_inti2323454534rtrtjk.cs" />
-    <Compile Include="Migrations\202002212038130_inti2323454534rtrtjk.Designer.cs">
-      <DependentUpon>202002212038130_inti2323454534rtrtjk.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002220325113_i234234.cs" />
-    <Compile Include="Migrations\202002220325113_i234234.Designer.cs">
-      <DependentUpon>202002220325113_i234234.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002220409127_i234234232432.cs" />
-    <Compile Include="Migrations\202002220409127_i234234232432.Designer.cs">
-      <DependentUpon>202002220409127_i234234232432.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202003140103435_initial2323.cs" />
-    <Compile Include="Migrations\202003140103435_initial2323.Designer.cs">
-      <DependentUpon>202003140103435_initial2323.cs</DependentUpon>
+    <Compile Include="Migrations\202003172002193_intial2323235.cs" />
+    <Compile Include="Migrations\202003172002193_intial2323235.Designer.cs">
+      <DependentUpon>202003172002193_intial2323235.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,32 +74,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202002192013429_inititit.resx">
-      <DependentUpon>202002192013429_inititit.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003171803181_intial232323.resx">
+      <DependentUpon>202003171803181_intial232323.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002211551266_inti23.resx">
-      <DependentUpon>202002211551266_inti23.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002211658261_inti232.resx">
-      <DependentUpon>202002211658261_inti232.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002211727452_inti23234545.resx">
-      <DependentUpon>202002211727452_inti23234545.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002211816427_inti2323454534.resx">
-      <DependentUpon>202002211816427_inti2323454534.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002212038130_inti2323454534rtrtjk.resx">
-      <DependentUpon>202002212038130_inti2323454534rtrtjk.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002220325113_i234234.resx">
-      <DependentUpon>202002220325113_i234234.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002220409127_i234234232432.resx">
-      <DependentUpon>202002220409127_i234234232432.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202003140103435_initial2323.resx">
-      <DependentUpon>202003140103435_initial2323.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003172002193_intial2323235.resx">
+      <DependentUpon>202003172002193_intial2323235.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

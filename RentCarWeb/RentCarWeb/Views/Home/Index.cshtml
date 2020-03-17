@@ -76,8 +76,16 @@
                                 <input type="text" class="form-control" style="min-width:200px;" id="anovehiculo" disabled />
                             </div>
                             <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Fecha renta</label>
+                                <input type="date" class="form-control" style="min-width:200px;" id="fechaRenta" />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label style="margin-bottom: 2px;">Fecha devolución</label>
+                                <input type="date" class="form-control" style="min-width:200px;" id="fechaDevolucion" />
+                            </div>
+                            <div class="col-sm-6 col-md-6">
                                 <label style="margin-bottom: 2px;">Días</label>
-                                <input type="number" class="form-control" style="min-width:200px;" id="dias" />
+                                <input type="number" class="form-control" style="min-width:200px;" id="dias" disabled />
                             </div>
                             <div class="col-sm-6 col-md-6">
                                 <label style="margin-bottom: 2px;">Total</label>
@@ -88,7 +96,7 @@
                                 <input style="display: block;" type="checkbox" id="servicio-domicilio" />
                             </div>
                             <div class="col-sm-6 col-md-6">
-                                <button type="button" style="float: right;" class="btn btn-success">Rentar</button>
+                                <button type="button" style="float: right;" id="btnRentarVehiculo" class="btn btn-success">Rentar</button>
                             </div>
                         </div>
                     </div>

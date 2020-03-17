@@ -20,7 +20,7 @@ namespace WilmerRentCar.DAL
         }
         
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Clientes> Cliente { get; set; }
+        //public DbSet<Clientes> Cliente { get; set; }
         public DbSet<RentaDevolucion> RentaDevolucion { get; set; }
         public DbSet<Vehículo> Vehículo { get; set; }
 

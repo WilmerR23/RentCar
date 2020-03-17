@@ -9,7 +9,7 @@ using WilmerRentCar.BOL.Dtos;
 
 namespace RentCarWeb.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class HomeController : Controller
     {
 
