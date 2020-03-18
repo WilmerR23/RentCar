@@ -8,7 +8,7 @@ namespace WilmerRentCar.BOL.Dtos
 {
     public class RentaDevolucionDto : BaseEntityDto
     {
-        public string Descripcion { get; set; }
+        public string Renta { get; set; }
         public int VehiculoId { get; set; }
         public int UsuarioId { get; set; }
         public DateTime FechaRenta { get; set; }

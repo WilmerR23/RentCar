@@ -7,13 +7,13 @@ namespace WilmerRentCar.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class intial232323 : IMigrationMetadata
+    public sealed partial class initial239292342 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(intial232323));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial239292342));
         
         string IMigrationMetadata.Id
         {
-            get { return "202003171803181_intial232323"; }
+            get { return "202003180146226_initial239292342"; }
         }
         
         string IMigrationMetadata.Source

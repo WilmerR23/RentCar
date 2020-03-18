@@ -1,5 +1,6 @@
 ﻿
 var item = null;
+var renta = 0;
 
 $(document).ready(function () {
 
@@ -15,7 +16,8 @@ $(document).ready(function () {
             ServicioDomicilio: servicio,
             Dias: dias,
             FechaRenta: fechaRenta,
-            FechaDevolucion: fechaDevolucion
+            FechaDevolucion: fechaDevolucion,
+            Renta: renta 
         }
 
         var url = `${origen}api/Vehiculo/RentaVehiculo`;
@@ -37,7 +39,9 @@ $(document).ready(function () {
                     confirmButtonColor: '#3085d6',
                     confirmButtonText: 'Ok'
                 }).then(function (result) {
-
+                    if (result) {
+                        window.location.href = origen + 'Home';
+                    }
                 });
             }
         });
@@ -52,9 +56,7 @@ $(document).ready(function () {
                 confirmButtonColor: '#3085d6',
                 confirmButtonText: 'Ok'
             }).then(function (result) {
-                //if (result.value) {
-                //    window.location.href = origen + 'Home';
-                //}
+                
             });
         });
     });
@@ -75,7 +77,8 @@ function fechaOnChangeLogic() {
         const num = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
         var monto = $("#montodia").val();
         $("#dias").val(num);
-        $("#total").val(num * monto);
+        renta = num * monto;
+        $("#total").val(renta);
     }
 
 

@@ -50,6 +50,7 @@ namespace RentCarWeb.Controllers.api
         {
             vm.UsuarioId = Convert.ToInt32(HttpContext.Current.Session["userId"]?.ToString());
             vm = _ManejadorRenta.CrearSync(vm, true);
+            _Manejador.Eliminar(vm.VehiculoId);
             return Ok(vm.Id);
         }
 

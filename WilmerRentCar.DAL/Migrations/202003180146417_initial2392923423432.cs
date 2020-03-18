@@ -3,7 +3,7 @@ namespace WilmerRentCar.DAL.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class intial232323 : DbMigration
+    public partial class initial2392923423432 : DbMigration
     {
         public override void Up()
         {

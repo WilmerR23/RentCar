@@ -3,7 +3,7 @@ namespace WilmerRentCar.DAL.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class intial2323235 : DbMigration
+    public partial class initial239292342 : DbMigration
     {
         public override void Up()
         {
@@ -13,6 +13,7 @@ namespace WilmerRentCar.DAL.Migrations
             CreateIndex("dbo.RentaDevolucions", "UsuarioId");
             AddForeignKey("dbo.RentaDevolucions", "UsuarioId", "dbo.Usuarios", "Id", cascadeDelete: true);
             DropColumn("dbo.RentaDevolucions", "ClienteId");
+            DropColumn("dbo.RentaDevolucions", "ServicioDomicilio");
             DropTable("dbo.Clientes");
         }
         
@@ -30,6 +31,7 @@ namespace WilmerRentCar.DAL.Migrations
                     })
                 .PrimaryKey(t => t.Id);
             
+            AddColumn("dbo.RentaDevolucions", "ServicioDomicilio", c => c.Boolean(nullable: false));
             AddColumn("dbo.RentaDevolucions", "ClienteId", c => c.Int(nullable: false));
             DropForeignKey("dbo.RentaDevolucions", "UsuarioId", "dbo.Usuarios");
             DropIndex("dbo.RentaDevolucions", new[] { "UsuarioId" });
