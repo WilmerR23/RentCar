@@ -247,6 +247,7 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Vehiculo\Crear.cshtml" />
     <Content Include="Views\Account\EditarPerfil.cshtml" />
+    <Content Include="Views\Account\Vehiculos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

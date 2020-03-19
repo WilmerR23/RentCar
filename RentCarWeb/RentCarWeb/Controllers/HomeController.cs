@@ -19,6 +19,7 @@ namespace RentCarWeb.Controllers
         {
             _Manejador = new Manejador<Vehículo, VehículoDto>();
             var entidad = _Manejador.ObtenerTodos(new[] { "Marca", "Modelo", "TipoVehiculo", "Imagenes" });
+            ViewBag.Rol = "user";
             return View(entidad);
         }
     }

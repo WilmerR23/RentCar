@@ -1,0 +1,139 @@
+﻿
+
+@{
+    ViewBag.Title = "Vehiculos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<WilmerRentCar.BOL.Dtos.VehículoDto>
+
+<h2>Vehiculos rentados</h2>
+@section styles {
+    <link href="~/Content/css/Datatable.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/css/carousel.css" />
+}
+
+<div>
+    <div class="container">
+        @foreach (var vehiculos in Model)
+        {
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-4">
+                    <img style="max-width: 372px;" src="data:image/jpg;base64,@vehiculos.ImagenPrincipal" />
+                </div>
+                <div class="col-md-6">
+                    <h4><strong>Descripción:</strong> @vehiculos.Nombre</h4>
+                    <h4><strong>Fecha:</strong> @vehiculos.FechaCreacion</h4>
+                    <h4><strong>Año:</strong> @vehiculos.Año</h4>
+                    <h4><strong>Marca:</strong> @vehiculos.MarcaDescripcion</h4>
+                    <h4><strong>Modelo:</strong> @vehiculos.ModeloDescripcion</h4>
+                    <h4><strong>Tipo:</strong> @vehiculos.TipoVehiculoDescripcion</h4>
+                    <h4><strong>Monto por día:</strong> @vehiculos.Monto RD$</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <button class="btn btn-lg btn-primary" onclick="VerImagenes(@vehiculos.Id)">Ver imagenes</button>
+                </div>
+            </div>
+        }
+    </div>
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Imagenes</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="gallery">
+                        <div class="gallery-container">
+
+                        </div>
+                        <div class="gallery-controls"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+@*<div class="col-md-12">
+    <div class="gallery">
+        <div class="gallery-container">
+                @foreach (var img in vehiculos.Imagenes)
+                {
+                    <img src="data:image/jpg;base64,@img.ContenidoBase64" class="gallery-item" />
+                }
+
+                @if (vehiculos.Imagenes.Count() < 5)
+                {
+                    for (int x = 0; x < (5 - vehiculos.Imagenes.Count()); x++)
+                    {
+                        <img src="https://fakeimg.pl/300/" class="gallery-item" />
+                    }
+                }
+            </div>
+        <div class="gallery-controls"></div>
+    </div>
+</div>*@
+
+
+@section scripts {
+
+    <script src="~/Scripts/app/carousel.js"></script>
+
+    <script type="text/javascript">
+                       
+        var modelo = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model, Newtonsoft.Json.Formatting.Indented));
+function VerImagenes(id) {
+
+    $('.gallery-item').remove();
+    $(".gallery-controls").html("");
+
+    $('#myModal').modal('show'); 
+
+    var data = modelo.filter(x => x.Id == id)[0].Imagenes;
+
+    for (v = 0; v < data.length; v++) {
+        var item = data[v];
+        var img = $('<img class="gallery-item">');
+        img.attr('src', `data:image/jpg;base64,${item.ContenidoBase64}`);
+        img.appendTo('.gallery-container');
+    }
+
+    if (data.length < 5) {
+
+        var count = 5 - data.length;
+
+        for (v = 0; v < count; v++) {
+            var img = $('<img class="gallery-item">');
+            img.attr('src', `https://fakeimg.pl/300/`);
+            img.appendTo('.gallery-container');
+        }
+
+    }
+
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
+
+        exampleCarousel.setControls();
+        exampleCarousel.setNav();
+        exampleCarousel.setInitialState();
+        exampleCarousel.useControls();
+
+   
+
+}
+
+    </script>
+}

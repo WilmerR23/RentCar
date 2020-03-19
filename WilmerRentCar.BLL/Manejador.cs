@@ -121,6 +121,15 @@ namespace WilmerRentCar.BLL
             return data; 
         }
 
+        public IEnumerable<TDto> ObtenerTodosPorFiltroDto(Expression<Func<T, bool>> predicate, string[] paths = null)
+        {
+            var query = Include(paths);
+            var data = query.Where(predicate).ToList();
+            var Mapper = MapperHelper.MapperInstance();
+            IEnumerable<TDto> entidades = Mapper.Map<IEnumerable<T>, IEnumerable<TDto>>(data);
+            return entidades;
+        }
+
 
         public TDto Obtener(int id, string[] paths = null)
         {

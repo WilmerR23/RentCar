@@ -23,7 +23,12 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("Editar perfil", "EditarPerfil", "Account", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Vehiculos rentados", "Vehiculos", "Account", new { area = "" }, null)</li>
+                    @if (@System.Configuration.ConfigurationManager.AppSettings[""+ViewBag.Rol].Contains("Administrador"))
+                    {
                     <li>@Html.ActionLink("Crear vehiculo", "Crear", "Vehiculo", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Devolución vehiculo", "Devolver", "Vehiculo", new { area = "" }, null)</li>
+                    }
                     <li>@Html.ActionLink("Cerrar Sesión", "SignOut", "Account", new { area = "" }, null)</li>
                 </ul>
             </div>

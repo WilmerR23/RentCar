@@ -76,10 +76,10 @@ namespace RentCarWeb.Controllers.api
         {
             var entidad = _ManejadorImagenes.ObtenerTodosPorFiltro(x => x.VehículoId == id).ToList();
             
-            for(int x = 0; x < entidad.Count(); x++)
-            {
-                entidad[x].ContenidoBase64 = Convert.ToBase64String(entidad[x].Contenido);
-            }
+            //for(int x = 0; x < entidad.Count(); x++)
+            //{
+            //    entidad[x].ContenidoBase64 = Convert.ToBase64String(entidad[x].Contenido);
+            //}
             
             return Ok(entidad);
         }

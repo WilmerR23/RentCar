@@ -14,10 +14,12 @@ namespace RentCarWeb.Controllers
     public class AccountController : Controller
     {
         private Manejador<Usuario,UsuarioDto> _Manejador;
+        private Manejador<RentaDevolucion, RentaDevolucionDto> _ManejadorRenta;
 
         public AccountController()
         {
             _Manejador = new Manejador<Usuario, UsuarioDto>();
+            _ManejadorRenta = new Manejador<RentaDevolucion, RentaDevolucionDto>();
         }
 
         // GET: Account
@@ -26,6 +28,17 @@ namespace RentCarWeb.Controllers
         {
             return View();
         }
+
+        [Authorize]
+        public ActionResult Vehiculos()
+        {
+            var id = int.Parse(Session["userId"].ToString());
+            var vehiculos  = _ManejadorRenta.ObtenerTodosPorFiltroDto(x => x.UsuarioId == id, 
+                new string[] { "Vehiculo", "Vehiculo.Imagenes" }).Select(c => c.Vehiculo).ToList();
+
+            return View(vehiculos);
+        }
+
 
         // GET: Account
         [Authorize]
